@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "esbuild app.jsx --bundle --outfile=out.js --minify",
-    "buildts": "esbuild main.ts --bundle --outfile=main.js --minify"
+    "build": "esbuild app.jsx --bundle --outfile=out.js",
+    "buildts": "esbuild main.ts --bundle --outfile=main.js --minify",
+    "buildwatch": "esbuild main.ts --bundle --outfile=main.js --watch",
+    "testjs": "esbuild app.js --bundle --outfile=out.js --loader:.js=jsx"
   },
   "author": "",
   "license": "ISC",

@@ -1,1 +1,4 @@
-(()=>{console.log("min ts");})();
+(() => {
+  // main.ts
+  console.log("min ts");
+})();
