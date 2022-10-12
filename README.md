@@ -1,2 +1,5 @@
-# esbuild-app
-learn esbuild-app
+# esbuild-app-plugins
+
+
+learn esbuild-app-plugins
+
