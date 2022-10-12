@@ -8012,7 +8012,7 @@
   }
 
   // app.js
-  console.log(add_default);
+  console.log(add_default(1, 2));
 })();
 /**
  * @license

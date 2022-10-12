@@ -3,4 +3,4 @@
 
 // 嵌套递归
 import { add } from 'https://unpkg.com/lodash-es@4.17.15/lodash.js'
-console.log(add)    
+console.log(add(1, 2))    

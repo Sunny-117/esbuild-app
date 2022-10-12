@@ -40,3 +40,6 @@ esbuild.build({
     outfile: 'out.js',
     plugins: [MyPlugin]
 })
+
+
+// 优化：不是每次都需要重新async，可以用缓存（官网）
